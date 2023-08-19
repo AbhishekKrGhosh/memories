@@ -47,6 +47,7 @@
   },
   "devDependencies": {
     "@redux-devtools/core": "^3.9.0",
+    "react-error-overlay": "6.0.9" ,
     "@redux-devtools/dock-monitor": "^1.4.0",
     "@redux-devtools/log-monitor": "^2.3.0",
     "eslint-config-airbnb": "^18.2.1",
