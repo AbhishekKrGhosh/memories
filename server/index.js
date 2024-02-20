@@ -16,8 +16,8 @@ app.use(cors())
 
 app.use('/posts', postRoutes)
 
-const username = encodeURIComponent(process.env.UNAME)
-const pwd = encodeURIComponent(process.env.PWD)
+const username = encodeURIComponent( process.env.UNAME )
+const pwd = encodeURIComponent( process.env.PWD )
 const CONNECTION_URL = `mongodb+srv://${username}:${pwd}@cluster0.c8yvr3l.mongodb.net/`
 const PORT = 5000
 //---------------deployment--------------//
