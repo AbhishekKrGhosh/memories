@@ -18,7 +18,7 @@ app.use('/posts', postRoutes)
 
 const username = process.env.UNAME
 const pwd = process.env.PWD
-const CONNECTION_URL = `mongodb+srv://${username}:${pwd}@cluster0.i7dbbcc.mongodb.net/`
+const CONNECTION_URL = `mongodb+srv://${username}:${pwd}@cluster0.c8yvr3l.mongodb.net/`
 const PORT = 5000
 //---------------deployment--------------//
 
